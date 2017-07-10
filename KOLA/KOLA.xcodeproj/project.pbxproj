@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB85DBF1F13C6A800D4B491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB85DBE1F13C6A800D4B491 /* main.m */; };
+		BFB85DC21F13C6A800D4B491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB85DC11F13C6A800D4B491 /* AppDelegate.m */; };
+		BFB85DC51F13C6A800D4B491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB85DC41F13C6A800D4B491 /* ViewController.m */; };
+		BFB85DC81F13C6A800D4B491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB85DC61F13C6A800D4B491 /* Main.storyboard */; };
+		BFB85DCA1F13C6A800D4B491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB85DC91F13C6A800D4B491 /* Assets.xcassets */; };
+		BFB85DCD1F13C6A800D4B491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB85DCB1F13C6A800D4B491 /* LaunchScreen.storyboard */; };
+		BFB85DD81F13C6A800D4B491 /* KOLATests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB85DD71F13C6A800D4B491 /* KOLATests.m */; };
+		BFB85DE31F13C6A800D4B491 /* KOLAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB85DE21F13C6A800D4B491 /* KOLAUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB85DD41F13C6A800D4B491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB85DB21F13C6A800D4B491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB85DB91F13C6A800D4B491;
+			remoteInfo = KOLA;
+		};
+		BFB85DDF1F13C6A800D4B491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB85DB21F13C6A800D4B491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB85DB91F13C6A800D4B491;
+			remoteInfo = KOLA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB85DBA1F13C6A800D4B491 /* KOLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB85DBE1F13C6A800D4B491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB85DC01F13C6A800D4B491 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFB85DC11F13C6A800D4B491 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFB85DC31F13C6A800D4B491 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFB85DC41F13C6A800D4B491 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFB85DC71F13C6A800D4B491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB85DC91F13C6A800D4B491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB85DCC1F13C6A800D4B491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB85DCE1F13C6A800D4B491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB85DD31F13C6A800D4B491 /* KOLATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOLATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB85DD71F13C6A800D4B491 /* KOLATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOLATests.m; sourceTree = "<group>"; };
+		BFB85DD91F13C6A800D4B491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB85DDE1F13C6A800D4B491 /* KOLAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOLAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB85DE21F13C6A800D4B491 /* KOLAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOLAUITests.m; sourceTree = "<group>"; };
+		BFB85DE41F13C6A800D4B491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB85DB71F13C6A800D4B491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB85DD01F13C6A800D4B491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB85DDB1F13C6A800D4B491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB85DB11F13C6A800D4B491 = {
+			isa = PBXGroup;
+			children = (
+				BFB85DBC1F13C6A800D4B491 /* KOLA */,
+				BFB85DD61F13C6A800D4B491 /* KOLATests */,
+				BFB85DE11F13C6A800D4B491 /* KOLAUITests */,
+				BFB85DBB1F13C6A800D4B491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB85DBB1F13C6A800D4B491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB85DBA1F13C6A800D4B491 /* KOLA.app */,
+				BFB85DD31F13C6A800D4B491 /* KOLATests.xctest */,
+				BFB85DDE1F13C6A800D4B491 /* KOLAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB85DBC1F13C6A800D4B491 /* KOLA */ = {
+			isa = PBXGroup;
+			children = (
+				BFB85DC01F13C6A800D4B491 /* AppDelegate.h */,
+				BFB85DC11F13C6A800D4B491 /* AppDelegate.m */,
+				BFB85DC31F13C6A800D4B491 /* ViewController.h */,
+				BFB85DC41F13C6A800D4B491 /* ViewController.m */,
+				BFB85DC61F13C6A800D4B491 /* Main.storyboard */,
+				BFB85DC91F13C6A800D4B491 /* Assets.xcassets */,
+				BFB85DCB1F13C6A800D4B491 /* LaunchScreen.storyboard */,
+				BFB85DCE1F13C6A800D4B491 /* Info.plist */,
+				BFB85DBD1F13C6A800D4B491 /* Supporting Files */,
+			);
+			path = KOLA;
+			sourceTree = "<group>";
+		};
+		BFB85DBD1F13C6A800D4B491 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB85DBE1F13C6A800D4B491 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFB85DD61F13C6A800D4B491 /* KOLATests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB85DD71F13C6A800D4B491 /* KOLATests.m */,
+				BFB85DD91F13C6A800D4B491 /* Info.plist */,
+			);
+			path = KOLATests;
+			sourceTree = "<group>";
+		};
+		BFB85DE11F13C6A800D4B491 /* KOLAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB85DE21F13C6A800D4B491 /* KOLAUITests.m */,
+				BFB85DE41F13C6A800D4B491 /* Info.plist */,
+			);
+			path = KOLAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB85DB91F13C6A800D4B491 /* KOLA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB85DE71F13C6A800D4B491 /* Build configuration list for PBXNativeTarget "KOLA" */;
+			buildPhases = (
+				BFB85DB61F13C6A800D4B491 /* Sources */,
+				BFB85DB71F13C6A800D4B491 /* Frameworks */,
+				BFB85DB81F13C6A800D4B491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOLA;
+			productName = KOLA;
+			productReference = BFB85DBA1F13C6A800D4B491 /* KOLA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB85DD21F13C6A800D4B491 /* KOLATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB85DEA1F13C6A800D4B491 /* Build configuration list for PBXNativeTarget "KOLATests" */;
+			buildPhases = (
+				BFB85DCF1F13C6A800D4B491 /* Sources */,
+				BFB85DD01F13C6A800D4B491 /* Frameworks */,
+				BFB85DD11F13C6A800D4B491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB85DD51F13C6A800D4B491 /* PBXTargetDependency */,
+			);
+			name = KOLATests;
+			productName = KOLATests;
+			productReference = BFB85DD31F13C6A800D4B491 /* KOLATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB85DDD1F13C6A800D4B491 /* KOLAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB85DED1F13C6A800D4B491 /* Build configuration list for PBXNativeTarget "KOLAUITests" */;
+			buildPhases = (
+				BFB85DDA1F13C6A800D4B491 /* Sources */,
+				BFB85DDB1F13C6A800D4B491 /* Frameworks */,
+				BFB85DDC1F13C6A800D4B491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB85DE01F13C6A800D4B491 /* PBXTargetDependency */,
+			);
+			name = KOLAUITests;
+			productName = KOLAUITests;
+			productReference = BFB85DDE1F13C6A800D4B491 /* KOLAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB85DB21F13C6A800D4B491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "彭玮君";
+				TargetAttributes = {
+					BFB85DB91F13C6A800D4B491 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z7JPZ7BHVA;
+						ProvisioningStyle = Automatic;
+					};
+					BFB85DD21F13C6A800D4B491 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z7JPZ7BHVA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFB85DB91F13C6A800D4B491;
+					};
+					BFB85DDD1F13C6A800D4B491 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z7JPZ7BHVA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFB85DB91F13C6A800D4B491;
+					};
+				};
+			};
+			buildConfigurationList = BFB85DB51F13C6A800D4B491 /* Build configuration list for PBXProject "KOLA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB85DB11F13C6A800D4B491;
+			productRefGroup = BFB85DBB1F13C6A800D4B491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB85DB91F13C6A800D4B491 /* KOLA */,
+				BFB85DD21F13C6A800D4B491 /* KOLATests */,
+				BFB85DDD1F13C6A800D4B491 /* KOLAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB85DB81F13C6A800D4B491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB85DCD1F13C6A800D4B491 /* LaunchScreen.storyboard in Resources */,
+				BFB85DCA1F13C6A800D4B491 /* Assets.xcassets in Resources */,
+				BFB85DC81F13C6A800D4B491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB85DD11F13C6A800D4B491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB85DDC1F13C6A800D4B491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB85DB61F13C6A800D4B491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB85DC51F13C6A800D4B491 /* ViewController.m in Sources */,
+				BFB85DC21F13C6A800D4B491 /* AppDelegate.m in Sources */,
+				BFB85DBF1F13C6A800D4B491 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB85DCF1F13C6A800D4B491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB85DD81F13C6A800D4B491 /* KOLATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB85DDA1F13C6A800D4B491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB85DE31F13C6A800D4B491 /* KOLAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB85DD51F13C6A800D4B491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB85DB91F13C6A800D4B491 /* KOLA */;
+			targetProxy = BFB85DD41F13C6A800D4B491 /* PBXContainerItemProxy */;
+		};
+		BFB85DE01F13C6A800D4B491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB85DB91F13C6A800D4B491 /* KOLA */;
+			targetProxy = BFB85DDF1F13C6A800D4B491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB85DC61F13C6A800D4B491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB85DC71F13C6A800D4B491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB85DCB1F13C6A800D4B491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB85DCC1F13C6A800D4B491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB85DE51F13C6A800D4B491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB85DE61F13C6A800D4B491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB85DE81F13C6A800D4B491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z7JPZ7BHVA;
+				INFOPLIST_FILE = KOLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyaug.KOLA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFB85DE91F13C6A800D4B491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z7JPZ7BHVA;
+				INFOPLIST_FILE = KOLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyaug.KOLA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFB85DEB1F13C6A800D4B491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z7JPZ7BHVA;
+				INFOPLIST_FILE = KOLATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyaug.KOLATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOLA.app/KOLA";
+			};
+			name = Debug;
+		};
+		BFB85DEC1F13C6A800D4B491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z7JPZ7BHVA;
+				INFOPLIST_FILE = KOLATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyaug.KOLATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOLA.app/KOLA";
+			};
+			name = Release;
+		};
+		BFB85DEE1F13C6A800D4B491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z7JPZ7BHVA;
+				INFOPLIST_FILE = KOLAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyaug.KOLAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KOLA;
+			};
+			name = Debug;
+		};
+		BFB85DEF1F13C6A800D4B491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z7JPZ7BHVA;
+				INFOPLIST_FILE = KOLAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazyaug.KOLAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KOLA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB85DB51F13C6A800D4B491 /* Build configuration list for PBXProject "KOLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB85DE51F13C6A800D4B491 /* Debug */,
+				BFB85DE61F13C6A800D4B491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB85DE71F13C6A800D4B491 /* Build configuration list for PBXNativeTarget "KOLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB85DE81F13C6A800D4B491 /* Debug */,
+				BFB85DE91F13C6A800D4B491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB85DEA1F13C6A800D4B491 /* Build configuration list for PBXNativeTarget "KOLATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB85DEB1F13C6A800D4B491 /* Debug */,
+				BFB85DEC1F13C6A800D4B491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB85DED1F13C6A800D4B491 /* Build configuration list for PBXNativeTarget "KOLAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB85DEE1F13C6A800D4B491 /* Debug */,
+				BFB85DEF1F13C6A800D4B491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB85DB21F13C6A800D4B491 /* Project object */;
+}
